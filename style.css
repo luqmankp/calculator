@@ -1,0 +1,117 @@
+.main-frame {
+    width: 280px;
+    height: 360px;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    margin-left: 20%;
+    margin-top: 40px;
+    font-family: Arial;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: aliceblue;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 239, 239, 0.733);
+
+}
+
+.display {
+    height: 80px;
+    width: 250px;
+
+}
+
+.name {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    color: rgb(99, 99, 99);
+}
+
+.textbox {
+    width: 248px;
+    height: 50px;
+    border: 0px;
+    background-color: rgb(199, 198, 198);
+    padding: 0px;
+    pointer-events: none;
+    text-align: right;
+    border-radius: 5px;
+    font-size: large;
+    padding-right: 5px;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.top-row {
+    width: 200px;
+    height: 40px;
+    padding-left: 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#clearbutton {
+    background-color: rgb(255, 46, 46);
+    opacity: .8;
+}
+
+#backbutton {
+    background-color: rgb(255, 46, 46);
+    opacity: .8;
+    margin-left: 25px;
+}
+
+
+#equalButton {
+    background-color: rgb(0, 210, 0);
+    opacity: .8;
+}
+
+#oprationButton {
+    background-color: rgb(96, 96, 255);
+    opacity: .8;
+}
+
+#dotButton {
+    background-color: rgb(25, 185, 197);
+    opacity: .8;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+    width: 250px;
+    height: 50px;
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+}
+
+.buttons {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(255, 241, 225);
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(255, 218, 218);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 255, 255, 0.733);
+    cursor: pointer;
+    transition: box-shadow .08s;
+}
+
+.buttons:active {
+    box-shadow: none;
+}
+
+body {
+    background-color: beige;
+}
